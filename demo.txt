@@ -1,0 +1,3 @@
+git checkout -- <file> : dischange file which is not on stagging area (before add)
+git diff : see the different 
+git reset HEAD <file> : unstage
