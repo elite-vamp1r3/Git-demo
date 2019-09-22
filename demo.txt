@@ -2,3 +2,7 @@ git checkout -- <file> : dischange file which is not on stagging area (before ad
 git diff : see the different 
 git reset <file> : unstage
 git checkout -b <branch_name> : mk new branch and checkout to that branch
+git reset --soft <commit_ip> : delete any commit after <file>
+git reset --mixed <commit_ip> : delete any commit after <file> & unstage that file
+git reset --hard <commit_ip> : delete any commit & changes after <file> & unstage that file
+git revert <commit_ip> : unchange that file
