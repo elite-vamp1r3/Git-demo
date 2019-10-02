@@ -7,5 +7,3 @@ git reset --mixed <commit_ip> : delete any commit after <file> & unstage that fi
 git reset --hard <commit_ip> : delete any commit & changes after <file> & unstage that file
 git revert <commit_ip> : unchange that file
 git push : push new commit to remote repo
-
-ghdsafdhsakjdhksajlk
